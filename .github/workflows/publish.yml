@@ -13,6 +13,6 @@ permissions:
 
 jobs:
   manifest-driven-build:
-    uses: indigital-test/devops-action-driver-poc/.github/workflows/indigiploy-reusable.yml@866040b97ecf5f28cfcc042b5adc4760d6bd7f06
+    uses: indigital-test/indigiploy-manifest-runner/.github/workflows/indigiploy-reusable.yml@1aabd6d3b2aa16f6b7be5c572d40be800132757a
     with:
       master-url: https://indigiploy.mydigical.com
